@@ -15,7 +15,7 @@ __pycache__/
 launch.bat
 
 # Ignore old files
-Notebooks/archive/
+#Notebooks/archive/
 
 # Ignore large files
 *.pdf
