@@ -82,39 +82,42 @@ graph TD
    ```
    
 ## File Structure
+```
 battery-clustering/
-│   .gitignore
-│   launch_jupyter.bat
-│   requirements.txt
-│   tozero_cluster_3.pdf
 │
-├───Data
-│   ├───Full
-│   │       battery_dataset_20250401_1513.csv
-│   │       battery_dataset_20250401_1515.csv
+├── .gitignore
+├── launch_jupyter.bat
+├── requirements.txt
+├── tozero_cluster_3.pdf
+│
+├───Data/
+│   ├───Full/
+│   │   ├── battery_dataset_20250401_1513.csv
+│   │   └── battery_dataset_20250401_1515.csv
 │   │
-│   └───Samples
-│           battery_dataset_sample.csv
+│   └───Samples/
+│       └── battery_dataset_sample.csv
 │
-├───Notebooks
-│   │   tozero clustering.ipynb
-│   │   tozero_cluster_FINAL.ipynb
+├───Notebooks/
+│   ├── tozero clustering.ipynb
+│   ├── tozero_cluster_FINAL.ipynb
 │   │
-│   └───Archive
-│           tozero_cluster_analysis_2.ipynb
+│   └───Archive/
+│       └── tozero_cluster_analysis_2.ipynb
 │
-└───Plots
-        cluster.png
-        cluster_metals_boxplot.png
-        dbscan_clusters.png
-        elbow_and_silhouette.png
-        k4_clusters.png
-        kmeans_clusters_3_4_5.png
-        metals_pairplot.png
-        metals_scatter_with_reg.png
-        metal_by_battery_type.png
-        metal_composition_radar.png
-        recovery_rate_kdensity.png
+└───Plots/
+    ├── cluster.png
+    ├── cluster_metals_boxplot.png
+    ├── dbscan_clusters.png
+    ├── elbow_and_silhouette.png
+    ├── k4_clusters.png
+    ├── kmeans_clusters_3_4_5.png
+    ├── metals_pairplot.png
+    ├── metals_scatter_with_reg.png
+    ├── metal_by_battery_type.png
+    ├── metal_composition_radar.png
+    └── recovery_rate_kdensity.png
+```
         
 ## Data Availability
 The synthetic dataset used in this analysis is available in [`/data/Full/battery_dataset_20250401_1515.csv`](/data/Full/battery_dataset_20250401_1515.csv).
