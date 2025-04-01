@@ -1,8 +1,8 @@
 # Battery Composition Clustering Analysis
 
-![Cluster Visualization]([https://github.com/AaronMartin78/Cluster-Analysis-Synthetic-Battery-Dataset/blob/main/Plots/dbscan_clusters.png?raw=true])  
+![Cluster Visualization](https://github.com/AaronMartin78/Cluster-Analysis-Synthetic-Battery-Dataset/blob/main/Plots/dbscan_clusters.png?raw=true)
 *Figure 1: DBSCAN clustering results showing battery composition groups*
-
+https://github.com/AaronMartin78/Cluster-Analysis-Synthetic-Battery-Dataset/blob/main/Plots/dbscan_clusters.png?raw=true
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Key Features](#key-features)
