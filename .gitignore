@@ -1,3 +1,22 @@
-".ipynb.checkpoints/" 
-"__pycache__/" 
-"launch_jupyter.bat" 
+
+# Data
+/data/full/*
+!/data/samples/
+
+# System
+.DS_Store
+__pycache__/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local files
+/ignore/
+launch.bat
+
+# Ignore old files
+Notebooks/archive/
+
+# Ignore large files
+*.pdf
+Data/full/*.csv
