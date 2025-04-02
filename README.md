@@ -78,7 +78,7 @@ graph TD
 
 3. Run analysis:
    ```bash
-   jupyter notebook battery_clustering_analysis.ipynb
+   jupyter notebook battery_cluster_FINAL.ipynb
    ```
    
 ## File Structure
