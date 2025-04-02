@@ -122,11 +122,11 @@ battery-clustering/
 ```
         
 ## Data Availability
-The synthetic dataset used in this analysis is available in [`/data/Full/battery_dataset_20250401_1515.csv`](/data/Full/battery_dataset_20250401_1515.csv).
+The synthetic dataset used in this analysis is available in [/Data/Full/battery_dataset_20250401_1515.csv`](/Data/Full/battery_dataset_20250401_1515.csv).
 
 | File | Format | Description |
 |------|--------|-------------|
-| [battery_dataset_20250401_1515.csv](/data/Full/battery_dataset_20250401_1515.csv) | CSV | Primary dataset with 2,500 battery compositions |
+| [battery_dataset_20250401_1515.csv](/Data/Full/battery_dataset_20250401_1515.csv) | CSV | Primary dataset with 2,500 battery compositions |
 
 ## License
 This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
