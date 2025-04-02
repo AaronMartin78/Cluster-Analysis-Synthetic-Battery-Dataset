@@ -85,38 +85,40 @@ graph TD
 ```
 battery-clustering/
 │
-├── .gitignore
-├── launch_jupyter.bat
-├── requirements.txt
-├── tozero_cluster_3.pdf
+│   .gitignore
+│   Cluster_Analysis_Final_Report.pdf
+│   launch_jupyter.bat
+│   LICENSE
+│   README.md
+│   requirements.txt
 │
-├───Data/
-│   ├───Full/
-│   │   ├── battery_dataset_20250401_1513.csv
-│   │   └── battery_dataset_20250401_1515.csv
+├───Data
+│   ├───Full
+│   │       battery_dataset_20250401_1513.csv
+│   │       battery_dataset_20250401_1515.csv
 │   │
-│   └───Samples/
-│       └── battery_dataset_sample.csv
+│   └───Samples
+│           battery_dataset_sample.csv
 │
-├───Notebooks/
-│   ├── tozero clustering.ipynb
-│   ├── tozero_cluster_FINAL.ipynb
+├───Notebooks
+│   │   battery_cluster_FINAL.ipynb
 │   │
-│   └───Archive/
-│       └── tozero_cluster_analysis_2.ipynb
+│   └───Archive
+│           battery clustering.ipynb
+│           battery_cluster_analysis_2.ipynb
 │
-└───Plots/
-    ├── cluster.png
-    ├── cluster_metals_boxplot.png
-    ├── dbscan_clusters.png
-    ├── elbow_and_silhouette.png
-    ├── k4_clusters.png
-    ├── kmeans_clusters_3_4_5.png
-    ├── metals_pairplot.png
-    ├── metals_scatter_with_reg.png
-    ├── metal_by_battery_type.png
-    ├── metal_composition_radar.png
-    └── recovery_rate_kdensity.png
+└───Plots
+        cluster.png
+        cluster_metals_boxplot.png
+        dbscan_clusters.png
+        elbow_and_silhouette.png
+        k4_clusters.png
+        kmeans_clusters_3_4_5.png
+        metals_pairplot.png
+        metals_scatter_with_reg.png
+        metal_by_battery_type.png
+        metal_composition_radar.png
+        recovery_rate_kdensity.png
 ```
         
 ## Data Availability
